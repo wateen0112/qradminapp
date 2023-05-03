@@ -1,0 +1,25 @@
+@import "./_variables.scss";
+
+.bg-light {
+    background-color: $light-1;
+}
+
+.shadow-1 {
+    box-shadow: 0 0 8px -5px $dark-1;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.shadow-2 {
+    box-shadow: 0 0 10px -5px #1f1f1f;
+}

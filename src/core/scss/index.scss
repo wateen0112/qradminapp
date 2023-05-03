@@ -1,0 +1,17 @@
+@use "./utility-classes";
+@use "./fonts-config";
+@use "./golobal-config";
+@use "./theme-config";
+@use "./variables";
+@use "./tailwind";
+[dir="rtl"] {
+    .v-navigation-drawer--left {
+        right: 0;
+        border-left-width: thin;
+    }
+
+    .v-main {
+        padding-right: 0;
+        padding-left: var(--v-layout-left);
+    }
+}

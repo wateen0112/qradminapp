@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@200&family=Poppins&display=swap");
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    background-color: $light-1;
+}
+a,
+.router-link {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box;
+}

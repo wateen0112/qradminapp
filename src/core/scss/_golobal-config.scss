@@ -1,0 +1,11 @@
+
+html {
+    &[dir="rtl"] {
+        .v-main {
+            padding-left: 0;
+            padding-left: var(--v-layout-right) !important;
+        }
+    }
+
+    overflow: auto;
+}
